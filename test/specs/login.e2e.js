@@ -1,4 +1,4 @@
-/*import userData from '../data/userData.json' with {type: "json"}
+import userData from '../data/userData.json' with {type: "json"}
 import { expect } from '@wdio/globals'
 import { $ } from '@wdio/globals'
 import MenuScreen from '../screen/menu.screen.js'
@@ -28,5 +28,5 @@ describe('My Login application', () => {
         await LoginScreen.errorCheckout()
     })
 })
-*/
+
 
