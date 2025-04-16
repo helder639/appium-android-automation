@@ -7,7 +7,8 @@ Este repositório contém um projeto de automação de testes para um aplicativo
 Antes de executar o projeto, certifique-se de ter os seguintes componentes instalados:
 
 - [Node.js](https://nodejs.org/)  
-- [Android Studio](https://developer.android.com/studio)  
+- [Android Studio](https://developer.android.com/studio)
+- [Appium](https://appium.io/docs/en/latest/) 
 
 Além disso, instale os pacotes necessários via **npm**:
 
