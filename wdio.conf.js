@@ -1,11 +1,16 @@
 export const config = {
+
+    before: async function (capabilities, specs) {
+        console.log('Testando no dispositivo:', capabilities['appium:deviceName']);
+        // Adicione quaisquer configurações ou inicializações necessárias aqui
+    },
     //
     // ====================
     // Runner Configuration
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    port: 4723,
+    port: 4724,
     //
     // ==================
     // Specify Test Files
@@ -52,11 +57,9 @@ export const config = {
     //
     capabilities: [{
         "platformName": "Android",
-        "appium:deviceName": "Pixel 8 API 34 (UpsideDownCake)",
-        "appium:app": "C:/QA/mobile/appium-android-automation/app/Android-MyDemoAppRN.1.3.0.build-244.apk",
+        "appium:deviceName": "Pixel 8 API 34",
+        "appium:app": "C:\\QA\\mobile\\appium-android-automation\\app\\Android-MyDemoAppRN.1.3.0.build-244.apk",
         "appium:automationName": "UIAutomator2",
-        "appium:platformVersion": "14",
-        "appium:shouldTerminateApp": false
     }],
 
     //
