@@ -1,4 +1,4 @@
-/*import userData from '../data/userData.json' with {type: "json"}
+import userData from '../data/userData.json' with {type: "json"}
 import { expect } from '@wdio/globals'
 import { $ } from '@wdio/globals'
 import ProductsScreen from '../screen/products.screen.js'
@@ -87,4 +87,4 @@ describe('Testing', () => {
         await ProductsScreen.avaliation1()
     })
 
-})*/
+})
